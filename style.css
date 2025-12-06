@@ -5,16 +5,16 @@ html {
 }
 
 :root {
-    --marine: #954c4c;
-    --sand: #F8F2F4;
-    --dark: #2C2C2C;
+    --marine: #AFA9A0;
+    --sand: #F1EFEC;
+    --dark: #3C3C3C;
 }
 
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     background: var(--sand);
-    color: #6A1B1B;
+    color: #AFA9A0;
 }
 
 
@@ -31,7 +31,7 @@ body {
     animation: scroll-left 15s linear infinite;
     font-weight: bold;
     font-size: 1rem;
-    color: #556B2F; /* colore testo */
+    color: #C2BCB6; /* colore testo */
 }
 
 @keyframes scroll-left {
@@ -63,7 +63,7 @@ body {
 }
 
 .navbar.scrolled {
-    background-color: #6A1B1B;
+    background-color: #DCE5DF;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
@@ -92,14 +92,14 @@ body {
     bottom: -5px;
     height: 2px;
     width: 100%;
-    background: #D4A373;
+    background: #C2BCB6;
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 0.3s ease;
 }
 
 .nav-links a:hover {
-    color: #D4A373;
+    color: #C2BCB6;
 }
 
 .nav-links a:hover::after {
@@ -124,7 +124,7 @@ body {
         right: -100%;
         height: 100vh;
         width: 40%;
-        background: #6A1B1B;
+        background: #AFA9A0;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
@@ -193,8 +193,8 @@ body {
 
 /* Pulsante hero */
 .btn {
-    background: #6A1B1B;
-    color: #fff;
+    background: #98443a;
+    color: #FAFAF9;
     padding: 0.8rem 1.5rem;
     border-radius: 50px;
     text-decoration: none;
@@ -249,7 +249,7 @@ body {
 #about h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: var(--marine);
+    color: #3C3C3C;
 }
 
 #about p {
@@ -302,17 +302,18 @@ body {
 .benefit-item img {
     width: 60px;
     height: 60px;
+    background-color: #ac8484;
 }
 
 .benefit-item h3 {
     margin: 0;
     font-size: 1.2rem;
-    color: #556B2F;
+    color: #C2BCB6;
 }
 
 .benefit-item p {
     margin: 0.3rem 0 0;
-    color: #555;
+    color: #8E8984;
     font-size: 0.95rem;
 }
 
@@ -329,19 +330,19 @@ body {
 .services-section {
     padding: 100px 20px;
     text-align: center;
-    background: var(--sand);
+    background: #FAFAF9;
 }
 
 .services-section h2 {
     font-size: 2.8rem;
     font-weight: 700;
     margin-bottom: 10px;
-    color: #111;
+    color: #3C3C3C;
 }
 
 .services-subtitle {
     font-size: 1.1rem;
-    color: #555;
+    color: #8E8984;
     margin-bottom: 50px;
 }
 
@@ -354,7 +355,7 @@ body {
 
 /* Service Card */
 .service-card {
-    background: #fff;
+    background: #FAFAF9;
     padding: 40px 25px;
     border-radius: 20px;
     box-shadow: 0 10px 35px rgba(0,0,0,0.08);
@@ -373,7 +374,7 @@ body {
 .service-icon {
     font-size: 60px;
     margin-bottom: 20px;
-    color: #c89af2; /* Colore di accento moderno */
+    color: #C2BCB6; /* Colore di accento moderno */
 }
 
 /* Heading */
@@ -381,13 +382,13 @@ body {
     font-size: 1.4rem;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #222;
+    color: #3C3C3C;
 }
 
 /* Text */
 .service-card p {
     font-size: 1rem;
-    color: #666;
+    color: #8E8984;
 }
 
 /* Hover Glow Effect */
@@ -422,12 +423,12 @@ body {
     font-size: 3rem;
     font-weight: 800;
     margin-bottom: 10px;
-    color: #000;
+    color: #3C3C3C;
 }
 
 .lux-subtitle {
     font-size: 1.2rem;
-    color: #555;
+    color: #8E8984;
     margin-bottom: 60px;
 }
 
@@ -481,11 +482,11 @@ body {
     font-size: 1.6rem;
     margin-bottom: 8px;
     font-weight: 700;
-    color: #222;
+    color: #3C3C3C;
 }
 
 .lux-content p {
-    color: #666;
+    color: #8E8984;
     font-size: 1rem;
 }
 
@@ -500,7 +501,7 @@ body {
 
 .reviews-section h2 {
     font-size: 2rem;
-    color: #6A1B1B; /* oro rosato */
+    color: #3C3C3C; /* oro rosato */
     margin-bottom: 2.5rem;
 }
 
@@ -513,7 +514,7 @@ body {
 }
 
 .review-card {
-    background-color: #6A1B1B; /* rosa cipria */
+    background-color: #98443a; /* rosa cipria */
     border-radius: 1rem;
     padding: 1.5rem;
     box-shadow: 0 4px 15px rgba(0,0,0,0.08);
@@ -527,20 +528,20 @@ body {
 
 .review-text {
     font-size: 1rem;
-    color: #ffffff; /* grigio tortora */
+    color: white; /* grigio tortora */
     margin-bottom: 1rem;
     font-style: italic;
 }
 
 .review-stars {
-    color: #D4A373; /* oro rosato */
+    color: #d59b13; /* oro rosato */
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
 }
 
 .review-author {
     font-weight: bold;
-    color: #f5f5f5;
+    color: #F1EFEC;
     font-size: 0.9rem;
 }
 
@@ -568,7 +569,7 @@ body {
     text-align: left;
 }
 .faq-item {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #DCD7D2;
     margin-bottom: 15px;
 }
 .faq-question {
@@ -586,7 +587,7 @@ body {
     display: none;
     padding: 0 15px 15px;
     font-size: 0.95rem;
-    color: #444;
+    color: #3C3C3C;
 }
 
 /* Counter */
@@ -595,6 +596,11 @@ body {
     text-align: center;
     background: var(--sand);
 }
+
+.counter-section h2{
+    color: #3C3C3C;
+}
+
 .counter-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -608,7 +614,7 @@ body {
 }
 .counter-box .counter {
     font-size: 2.5rem;
-    color: #6A1B1B;
+    color: #AFA9A0;
     display: block;
 }
 
@@ -618,8 +624,7 @@ body {
 
 /* === Sezione Gallery === */
 .gallery-section {
-    padding: 4rem 2rem;
-    text-align: center;
+    padding: 4rem 2rem; text-align: center;
     background: var(--sand);
     border-radius: 25px; /* bordo più arrotondato */
 }
@@ -635,13 +640,15 @@ body {
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
-    padding-bottom: 3.5rem; /* spazio EXTRA per i pallini */
+    padding-bottom: 3.5rem;
+    /* spazio EXTRA per i pallini */
     position: relative; /* necessario per frecce */
 }
 
 /* Slide */
 .swiper-slide {
-    height: 450px !important; /* altezza FISSA */
+    height: 450px !important;
+    /* altezza FISSA */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -657,42 +664,35 @@ body {
     transition: transform 0.3s ease;
 }
 
-/* Hover */
-.swiper-slide img:hover {
-    transform: scale(1.05);
-}
+/* Hover */ .swiper-slide img:hover {
+                transform: scale(1.05);
+            }
 
 /* Paginazione */
 .swiper-pagination {
-    bottom: 1rem !important; /* resta sempre visibile */
+    bottom: 1rem !important;
+    /* resta sempre visibile */
 }
-
 /* FRECCE */
-.swiper-button-prev,
-.swiper-button-next {
+.swiper-button-prev, .swiper-button-next {
     color: var(--marine);
     width: 2.8rem;
     height: 2.8rem;
-    top: 50% !important;     /* sempre centrate */
+    top: 50% !important;
+    /* sempre centrate */
     transform: translateY(-50%);
-    z-index: 20;             /* sopra le immagini */
-    opacity: 0.9;
-    transition: opacity 0.3s ease;
-}
-
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
-    opacity: 1;
-}
-
-/* Per evitare sovrapposizioni a causa del responsive */
+    z-index: 20;
+    /* sopra le immagini */
+    opacity: 0.9; transition: opacity 0.3s ease;
+} .swiper-button-prev:hover, .swiper-button-next:hover {
+      opacity: 1;
+  } /* Per evitare sovrapposizioni a causa del responsive */
 @media (max-width: 640px) {
-    .swiper-button-prev,
-    .swiper-button-next {
-        width: 2.2rem;
-        height: 2.2rem;
+    .swiper-button-prev, .swiper-button-next {
+        width: 2.2rem; height: 2.2rem;
     }
 }
+
 .caption {
     margin-top: 0.5rem;
     font-size: 0.9rem;
@@ -704,7 +704,7 @@ body {
 .cta {
     padding: 3rem 1rem;
     background-color: var(--sand);
-    color: #6A1B1B; /* colore testo - blu mare */
+    color: #AFA9A0; /* colore testo - blu mare */
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -716,7 +716,7 @@ body {
 }
 
 #contact h2 {
-    color: white;
+    color: #3C3C3C;
     text-align: center;
     font-weight: 600;
     margin-bottom: 2rem;
@@ -742,7 +742,7 @@ body {
 .contact-form input,
 .contact-form textarea {
     padding: 0.8rem 1rem;
-    border: 2px solid #6A1B1B;
+    border: 2px solid #AFA9A0;
     border-radius: 8px;
     font-size: 1rem;
     font-family: inherit;
@@ -752,12 +752,12 @@ body {
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-    border-color: #6A1B1B;
+    border-color: #AFA9A0;
     outline: none;
 }
 
 .contact-form button {
-    background-color: #6A1B1B;
+    background-color: #98443a;
     color: white;
     border: none;
     padding: 1rem;
@@ -769,7 +769,7 @@ body {
 }
 
 .contact-form button:hover {
-    background-color: #8B2E2E;
+    background-color: #AFA9A0;
 }
 
 .map-wrapper {
@@ -841,11 +841,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #25D366; /* verde WhatsApp */
+    background-color: var(--sand); /* verde WhatsApp */
     border-radius: 50%;        /* rotondo */
     width: 60px;               /* larghezza bottone */
     height: 60px;              /* altezza bottone */
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+
     z-index: 10000;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-decoration: none;
@@ -879,13 +879,13 @@ body {
 /* Footer */
 footer {
     background: var(--sand);
-    color: #6A1B1B  ;
+    color: #AFA9A0  ;
     text-align: center;
     padding: 2rem 1rem;
 }
 
 footer a {
-    color: #6A1B1B;
+    color: #AFA9A0;
     text-decoration: none;
     margin: 0 0.5rem;
     transition: opacity 0.3s ease;
@@ -900,8 +900,8 @@ footer a:hover {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%) translateY(100%);
-    background-color: #fff;
-    color: #00303f;
+    background-color: #FAFAF9;
+    color: #AFA9A0;
     padding: 1rem 2rem;
     font-size: 1rem;
     box-shadow: 0 -4px 15px rgba(0,0,0,0.15);
@@ -922,16 +922,16 @@ footer a:hover {
     margin: 0;
     font-weight: 500;
     flex: 1;
-    color: #00303f;
+    color: #AFA9A0;
 }
 
 #cookie-banner a {
-    color: #0077cc;
+    color: #AFA9A0;
     text-decoration: underline;
 }
 
 #cookie-banner button {
-    background-color: #0077cc;
+    background-color: #AFA9A0;
     border: none;
     color: white;
     padding: 0.5rem 1.2rem;
@@ -943,28 +943,11 @@ footer a:hover {
 }
 
 #cookie-banner button:hover {
-    background-color: #005fa3;
+    background-color: #AFA9A0;
 }
 
 /* Classe per far comparire il banner con fade-in + slide-up */
 #cookie-banner.show {
     transform: translateX(-50%) translateY(0);
     opacity: 1;
-}
-
-.privacy-consent {
-    display: block;
-    font-size: 0.9rem;
-    margin: 1rem 0;
-    color: #00303f;
-}
-
-.privacy-consent input[type="checkbox"] {
-    margin-right: 0.5rem;
-    vertical-align: middle;
-}
-
-.privacy-consent a {
-    color: white;
-    text-decoration: underline;
 }
