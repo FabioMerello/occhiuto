@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -12,11 +12,15 @@ html {
 
 body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bitter', serif;
     background: var(--sand);
     color: #AFA9A0;
 }
 
+h1, h2, h3 {
+    font-family: 'Bitter', serif;
+    font-weight: 700; /* se vuoi il grassetto */
+}
 
 .free-shipping {
     background-color: var(--sand); /* sfondo chiaro */
@@ -805,7 +809,7 @@ body {
 .social-section {
     padding: 3rem 1rem;
     background-color: var(--sand); /* un blu scuro coerente con tema mare */
-    color: var(--sand);
+    color: #3C3C3C;
     text-align: center;
 }
 
