@@ -840,19 +840,12 @@ h1, h2, h3 {
 
 .whatsapp {
     position: fixed;
-    bottom: 20px;  /* distanza dal fondo */
-    left: 20px;    /* distanza dal bordo sinistro */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--sand); /* verde WhatsApp */
-    border-radius: 50%;        /* rotondo */
-    width: 60px;               /* larghezza bottone */
-    height: 60px;              /* altezza bottone */
-
+    bottom: 20px;
+    left: 20px;
+    display: inline-block;   /* rimuove il flex che centrerà il logo nel cerchio */
     z-index: 10000;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .whatsapp img {
@@ -862,16 +855,12 @@ h1, h2, h3 {
 
 .whatsapp:hover {
     transform: scale(1.1);
-    box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+    /* puoi togliere l'ombra se vuoi solo il logo senza effetto cerchio */
+    box-shadow: none;
 }
 
 /* Adattamento per schermi piccoli */
 @media (max-width: 480px) {
-    .whatsapp {
-        width: 50px;
-        height: 50px;
-    }
-
     .whatsapp img {
         width: 28px;
         height: 28px;
